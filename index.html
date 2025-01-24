@@ -1,10 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Parking - Airport Parking Solutions</title>
+    <style>
+        /* General Reset */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .search-section {
+            margin: 20px auto;
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .search-section h2 {
+            margin-top: 0;
+            font-size: 1.8em;
+            color: #007BFF;
+        }
+
+        .search-section p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .search-form input[type="text"] {
+            padding: 10px;
+            width: 75%;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .search-form button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        .search-form button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            margin-top: 40px;
+            background: #007BFF;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Pages Website!</h1>
-    <p>This is hosted for free using GitHub Pages.</p>
+    <header>
+        <h1>Find Parking</h1>
+        <p>Your solution for stress-free airport parking!</p>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <h2>Search for Parking</h2>
+            <p>Enter your airport and travel dates to find the best parking options near you.</p>
+            <form class="search-form">
+                <input type="text" placeholder="Enter airport or city..." required>
+                <br>
+                <button type="submit">Search Parking</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Airport Parking Solutions. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
